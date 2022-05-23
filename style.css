@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.topbarcontainer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.topbar {
+    background-color: rgb(184, 181, 181);
+    width: 1000px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topbar input {
+    width: 300px;
+    height: 30px;
+    border: solid 2px black;
+    margin-top: 5px;
+}
+
+.topbar button {
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 55px;
+    margin-top: 5px;
+    border: solid 2px black;
+    box-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.pagebody {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagebodytop {
+    width: 1030px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ninjabox {
+    height: 250px;
+    width: 600px;
+    border: solid 2px black;
+    display: flex;
+}
+
+.ninjabox1left {
+    width: 150px;
+    text-align: center;
+}
+
+.ninjabox1left button {
+    width: 80px;
+    height: 35px;
+    border: solid 2px black;
+    box-shadow: 2px 2px black;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+.ninjabox1right {
+    width: 350px;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.dojonarybox {
+    height: 150px;
+    width: 250px;
+    border: solid 2px black;
+}
+
+.dojonarybox button {
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    border: solid 2px black;
+    box-shadow: 2px 2px black;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pagebodybottom {
+    height: 280px;
+    margin-left: 115px;
+}
