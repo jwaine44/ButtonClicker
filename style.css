@@ -12,8 +12,9 @@
 
 .topbar {
     background-color: rgb(184, 181, 181);
-    width: 1000px;
-    padding: 15px;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -37,20 +38,29 @@
 }
 
 .pagebody {
+    width: 70%;
+    margin: 0px auto;  /* Centers elements with the width 70% of display*/
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .pagebodytop {
     width: 1030px;
-    height: 280px;
+    height: 580px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .ninjabox {
+    height: 250px;
+    width: 600px;
+    border: solid 2px black;
+    display: flex;
+}
+
+.ninjaboxbottom {
     height: 250px;
     width: 600px;
     border: solid 2px black;
@@ -95,6 +105,7 @@
 }
 
 .pagebodybottom {
-    height: 280px;
-    margin-left: 115px;
+    width: 70%;
+    margin: 0px auto;  /* Centers elements with the width 70% of display*/
+    display: flex;
 }
